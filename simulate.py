@@ -11,9 +11,10 @@ from apex_predator import ApexPredator
 from competition_bot import CompetitionBot
 from smart_bot import SmartPokerBot
 from bot.main_bot import WorldClassBot
+from gemini_bot import GeminiBot # Import your new bot
 
 
-config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=10)
+config = setup_config(max_round=100, initial_stack=1000, small_blind_amount=10)
 
 # One Smart Bot vs Two Dumb ones
 # config.register_player(name="Math_Pro", algorithm=MathBot())
@@ -22,11 +23,12 @@ config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=10)
 # config.register_player(name="Competition_Bot", algorithm=CompetitionBot())
 # config.register_player(name="Me (Human)", algorithm=HumanPlayer())
 config.register_player(name="Strategy_Bot", algorithm=StrategyBot())
-config.register_player(name="Dumb_2", algorithm=DumbBot())
+# config.register_player(name="Dumb_2", algorithm=DumbBot())
 config.register_player(name="Tournament_Titan", algorithm=TournamentTitan())
-config.register_player(name="Apex_Predator", algorithm=ApexPredator())
+# config.register_player(name="Apex_Predator", algorithm=ApexPredator())
 config.register_player(name="Smart_Bot", algorithm=SmartPokerBot())
 config.register_player(name="World_Class_Bot", algorithm=WorldClassBot())
+config.register_player(name="Gemini_AI", algorithm=GeminiBot())
 
 game_result = start_poker(config, verbose=1)
 
