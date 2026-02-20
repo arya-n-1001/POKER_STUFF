@@ -28,7 +28,7 @@ def is_short_stack(zone: str) -> bool:
     return zone in {ULTRA_SHORT, SHORT}
 
 def is_push_fold_zone(zone: str) -> bool:
-    return zone in {ULTRA_SHORT, SHORT, PRESSURE}
+    return zone in {ULTRA_SHORT, SHORT}
 
 def is_deep_stack(zone: str) -> bool:
     return zone == DEEP
