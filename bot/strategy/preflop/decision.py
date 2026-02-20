@@ -20,8 +20,8 @@ from bot.strategy.preflop.ranges import (
 
 from bot.evaluation.hand_utils import normalize_hand
 from bot.config.constants import DEBUG_MODE
-from bot.strategy.preflop.push_fold import get_push_fold_action
 from bot.evaluation.stack import is_push_fold_zone
+from bot.strategy.preflop.ranges import get_push_fold_action
 from bot.strategy.preflop.ranges import get_facing_reraise_bucket
 from bot.core.state_parser import GameState
 from bot.strategy.preflop.ranges import in_limp_iso_range

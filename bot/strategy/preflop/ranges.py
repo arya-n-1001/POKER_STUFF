@@ -36,36 +36,80 @@ OPEN_RANGES = {
         }
     },
 
-    # ---------------- CO ----------------
     "CO": {
         "raise": {
-            "55", "66", "77", "88", "99", "TT", "JJ", "QQ", "KK", "AA",
-            "A8s", "A9s", "ATs", "AJs", "AQs", "AKs",
-            "KTs", "KJs", "KQs",
-            "QTs", "QJs",
-            "JTs",
-            "ATo", "AJo", "AQo", "AKo",
-            "KJo", "KQo",
+
+            # All pairs
+            "22","33","44","55","66","77","88","99",
+            "TT","JJ","QQ","KK","AA",
+
+            # All suited aces
+            "A2s","A3s","A4s","A5s","A6s","A7s",
+            "A8s","A9s","ATs","AJs","AQs","AKs",
+
+            # Offsuit aces
+            "A7o","A8o","A9o","ATo","AJo","AQo","AKo",
+
+            # Suited kings
+            "K7s","K8s","K9s","KTs","KJs","KQs",
+
+            # Offsuit kings
+            "KTo","KJo","KQo",
+
+            # Suited queens
+            "Q8s","Q9s","QTs","QJs",
+
+            # Offsuit queens
+            "Q9o","QTo",
+
+            # Suited connectors
+            "J9s","JTs",
+            "T8s","T9s",
+            "98s","87s","76s"
         }
     },
 
     # ---------------- BTN ----------------
     "BTN": {
         "raise": {
-            "22", "33", "44", "55", "66", "77", "88", "99",
-            "TT", "JJ", "QQ", "KK", "AA",
 
-            "A2s", "A3s", "A4s", "A5s", "A6s", "A7s",
-            "A8s", "A9s", "ATs", "AJs", "AQs", "AKs",
+            # All pairs
+            "22","33","44","55","66","77","88","99",
+            "TT","JJ","QQ","KK","AA",
 
-            "K8s", "K9s", "KTs", "KJs", "KQs",
-            "Q9s", "QTs", "QJs",
-            "J9s", "JTs",
-            "T9s", "98s", "87s",
+            # ALL suited aces
+            "A2s","A3s","A4s","A5s","A6s","A7s",
+            "A8s","A9s","ATs","AJs","AQs","AKs",
 
-            "A8o", "A9o", "ATo", "AJo", "AQo", "AKo",
-            "KTo", "KJo", "KQo",
-            "QTo", "JTo",
+            # ALL offsuit aces
+            "A2o","A3o","A4o","A5o","A6o","A7o",
+            "A8o","A9o","ATo","AJo","AQo","AKo",
+
+            # Suited kings
+            "K2s","K3s","K4s","K5s","K6s","K7s",
+            "K8s","K9s","KTs","KJs","KQs",
+
+            # Offsuit kings (stronger)
+            "K9o","KTo","KJo","KQo",
+
+            # Suited queens
+            "Q5s","Q6s","Q7s","Q8s","Q9s",
+            "QTs","QJs","QKs",
+
+            # Offsuit queens
+            "Q9o","QTo","QJo",
+
+            # Suited jacks
+            "J7s","J8s","J9s","JTs",
+
+            # Offsuit jacks
+            "J9o","JTo",
+
+            # Suited connectors & gappers
+            "T8s","T9s",
+            "97s","98s",
+            "86s","87s",
+            "76s","65s"
         }
     },
 
@@ -287,22 +331,41 @@ FACING_RERAISE_RANGES = {
         }
     }
 }
-
 BB_DEFEND_RANGE = {
     "call": {
-        # Broadways
-        "K8s","K9s","KTs","KJs","KQs",
-        "Q9s","QTs","QJs",
-        "J9s","JTs","T9s","98s","87s",
 
-        # Suited aces
+        # All pairs
+        "22","33","44","55","66","77","88","99","TT",
+
+        # ALL suited aces
         "A2s","A3s","A4s","A5s","A6s","A7s","A8s","A9s",
+        "ATs","AJs","AQs",
 
-        # Pairs
-        "22","33","44","55","66","77","88","99",
+        # Offsuit aces (reasonable ones)
+        "A7o","A8o","A9o","ATo","AJo",
 
-        # Some offsuit
-        "A9o","ATo","KTo","QTo"
+        # Suited kings
+        "K2s","K3s","K4s","K5s","K6s","K7s",
+        "K8s","K9s","KTs","KJs","KQs",
+
+        # Offsuit kings
+        "K9o","KTo","KJo",
+
+        # Suited queens
+        "Q5s","Q6s","Q7s","Q8s","Q9s",
+        "QTs","QJs",
+
+        # Offsuit queens
+        "Q9o","QTo",
+
+        # Suited jacks
+        "J7s","J8s","J9s","JTs",
+
+        # Suited connectors
+        "T7s","T8s","T9s",
+        "97s","98s",
+        "86s","87s",
+        "76s","65s"
     }
 }
 
@@ -401,3 +464,136 @@ def get_3bet_bucket(position_name: str, hand_code: str):
         return "bluff"
 
     return None
+
+
+"""
+Push/Fold Engine — Static Tournament Version
+
+Used when stack is SHORT / ULTRA_SHORT / PRESSURE (≤20bb)
+
+Returns:
+    ("raise", all_in_amount)  -> JAM
+    ("fold", 0)
+"""
+
+from bot.evaluation.hand_utils import normalize_hand
+from bot.config.constants import DEBUG_MODE
+
+
+# ==================================================
+# PUSH RANGES (Tournament Baseline)
+# ==================================================
+
+PUSH_RANGES = {
+
+    # ----------------------------------
+    # BTN (Heads-up or Late)
+    # ----------------------------------
+    "BTN": {
+        "push": {
+            # All pairs
+            "22","33","44","55","66","77","88","99","TT","JJ","QQ","KK","AA",
+
+            # All aces
+            "A2s","A3s","A4s","A5s","A6s","A7s","A8s","A9s",
+            "ATs","AJs","AQs","AKs",
+            "A2o","A3o","A4o","A5o","A6o","A7o","A8o","A9o",
+            "ATo","AJo","AQo","AKo",
+
+            # Broadways
+            "K8s","K9s","KTs","KJs","KQs",
+            "KTo","KJo","KQo",
+            "Q9s","QTs","QJs",
+            "JTs",
+
+            # Suited connectors
+            "T9s","98s","87s"
+        }
+    },
+
+    # ----------------------------------
+    # SB (Similar to BTN)
+    # ----------------------------------
+    "SB": {
+        "push": {
+            "22","33","44","55","66","77","88","99","TT","JJ","QQ","KK","AA",
+            "A2s","A3s","A4s","A5s","A6s","A7s","A8s","A9s",
+            "ATs","AJs","AQs","AKs",
+            "A2o","A3o","A4o","A5o","A6o","A7o","A8o","A9o",
+            "ATo","AJo","AQo","AKo",
+            "K9s","KTs","KJs","KQs",
+            "KTo","KJo","KQo",
+            "QTs","QJs","JTs"
+        }
+    },
+
+    # ----------------------------------
+    # BB vs Open (Stronger Range)
+    # ----------------------------------
+    "BB": {
+        "push": {
+            "22","33","44","55","66","77","88","99","TT","JJ","QQ","KK","AA",
+            "A2s","A3s","A4s","A5s","A6s","A7s","A8s","A9s",
+            "ATs","AJs","AQs","AKs",
+            "A2o","A3o","A4o","A5o","A6o","A7o","A8o","A9o",
+            "ATo","AJo","AQo","AKo",
+            "KTs","KJs","KQs",
+            "QJs","JTs"
+        }
+    }
+}
+
+
+# ==================================================
+# PUBLIC ENTRY
+# ==================================================
+
+def get_push_fold_action(state, valid_actions):
+    """
+    Determines jam/fold decision.
+    """
+
+    hand_code = normalize_hand(state.hero_cards)
+    position = state.hero_position_name
+
+    if DEBUG_MODE:
+        print("\n[PUSH/FOLD ENGINE]")
+        print(f"Hand: {hand_code}")
+        print(f"Position: {position}")
+        print(f"Stack BB: {state.stack_bb:.1f}")
+
+    if position not in PUSH_RANGES:
+        if DEBUG_MODE:
+            print("No push range for this position → fold")
+        return _fold(valid_actions)
+
+    if hand_code in PUSH_RANGES[position]["push"]:
+        return _jam(state, valid_actions)
+
+    if DEBUG_MODE:
+        print("Not in push range → fold")
+
+    return _fold(valid_actions)
+
+
+# ==================================================
+# HELPERS
+# ==================================================
+
+def _jam(state, valid_actions):
+
+    raise_info = next((a for a in valid_actions if a["action"] == "raise"), None)
+
+    if not raise_info:
+        return _fold(valid_actions)
+
+    max_raise = raise_info["amount"]["max"]
+
+    if DEBUG_MODE:
+        print(f"JAM for {max_raise}")
+
+    return "raise", max_raise
+
+
+def _fold(valid_actions):
+    return "fold", 0
