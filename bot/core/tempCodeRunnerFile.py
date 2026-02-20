@@ -1,5 +1,3 @@
-# bot/core/preflop_context.py
-
 def build_preflop_context(round_state, player_uuid):
 
     histories = round_state.get("action_histories", {})
@@ -21,10 +19,8 @@ def build_preflop_context(round_state, player_uuid):
 
     alive_uuids = {s["uuid"] for s in alive_order}
 
-    hero_pos = next(
-        i for i, s in enumerate(alive_order)
-        if s["uuid"] == player_uuid
-    )
+    hero_pos = next(i for i,s in enumerate(alive_order)
+                    if s["uuid"] == player_uuid)
 
     # ---------------------------------------
     # --- analyze actions BEFORE decision ---
@@ -39,7 +35,9 @@ def build_preflop_context(round_state, player_uuid):
 
     for action in preflop_actions:
 
-        act_uuid = action["uuid"]
+        if action["uuid"] == player_uuid:
+            continue
+
         act = action["action"].lower()
         amt = action.get("amount", 0)
 
@@ -47,9 +45,9 @@ def build_preflop_context(round_state, player_uuid):
             raises += 1
             max_bet = max(max_bet, amt)
 
-            # Track only if still alive
-            if act_uuid in alive_uuids:
-                last_raiser_uuid = act_uuid
+            # only track raiser if still alive
+            if action["uuid"] in alive_uuids:
+                last_raiser_uuid = action["uuid"]
 
         elif act == "call":
             if max_bet == bb:
@@ -62,10 +60,12 @@ def build_preflop_context(round_state, player_uuid):
     # ---------------------------------------
 
     if last_raiser_uuid is None:
+        # nobody raised OR all raisers folded
         players_left = len(alive_order) - hero_pos - 1
+
     else:
         raiser_pos = next(
-            i for i, s in enumerate(alive_order)
+            i for i,s in enumerate(alive_order)
             if s["uuid"] == last_raiser_uuid
         )
 
@@ -79,6 +79,5 @@ def build_preflop_context(round_state, player_uuid):
         "callers_before": callers,
         "limpers_before": limpers,
         "players_left_to_act": players_left,
-        "is_closing_action": players_left == 0,
-        "last_raiser_uuid": last_raiser_uuid
+        "is_closing_action": players_left == 0
     }

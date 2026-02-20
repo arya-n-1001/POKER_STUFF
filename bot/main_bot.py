@@ -1,8 +1,11 @@
 from pypokerengine.players import BasePokerPlayer
 from bot.config.constants import DEBUG_MODE, DEBUG_ACTION
 from bot.core.state_parser import parse_state
+from bot.strategy.postflop.flop_engine import get_flop_action
+from bot.strategy.postflop.river_engine import get_river_action
 from bot.strategy.preflop.classifier import detect_preflop_situation
 from bot.strategy.preflop.decision import get_preflop_action
+from bot.strategy.postflop.turn_engine import get_turn_action
 
 
 class WorldClassBot(BasePokerPlayer):
@@ -16,10 +19,13 @@ class WorldClassBot(BasePokerPlayer):
             situation = detect_preflop_situation(state)
             if DEBUG_MODE:
                 print(f"Preflop Situation: {situation.value}")
-
-        # For now, simple placeholder decision logic
-        if state.street == "preflop":
             action, amount = get_preflop_action(state, valid_actions)
+        elif state.street == "flop":
+            action, amount = get_flop_action(state, valid_actions)  
+        elif state.street == "turn":
+            action, amount = get_turn_action(state, valid_actions)  
+        elif state.street == "river":
+            action, amount = get_river_action(state, valid_actions)
         else:
             action, amount = self._basic_decision(valid_actions, state)
     

@@ -1,0 +1,3957 @@
+
+========== STARTING GAME 18 ==========
+Started the round 1
+Street "preflop" started. (community card = [])
+"Apex_Predator" declared "raise:80"
+"Smart_Bot" declared "raise:140"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D4', 'CA']
+Board: []
+Position Index: 5
+Stack: 1000 (50.0 BB)
+Stack Zone: STANDARD
+Pot: 250 (12.5 BB)
+To Call: 140
+Players Alive: 6
+Position: CO
+Pot Odds: 35.90%
+Equity: 16.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 4
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A4o
+Position: CO
+Stack Zone: STANDARD
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Dumb_2" declared "call:140"
+"Tournament_Titan" declared "fold:0"
+"Apex_Predator" declared "raise:200"
+"Smart_Bot" declared "raise:260"
+"Dumb_2" declared "call:260"
+"Apex_Predator" declared "raise:320"
+"Smart_Bot" declared "raise:380"
+"Dumb_2" declared "call:380"
+"Apex_Predator" declared "call:20"
+Street "flop" started. (community card = ['HT', 'SJ', 'H4'])
+"Dumb_2" declared "call:0"
+"Smart_Bot" declared "call:0"
+Street "turn" started. (community card = ['HT', 'SJ', 'H4', 'H2'])
+"Dumb_2" declared "call:0"
+"Smart_Bot" declared "call:0"
+Street "river" started. (community card = ['HT', 'SJ', 'H4', 'H2', 'H3'])
+"Dumb_2" declared "call:0"
+"Smart_Bot" declared "call:0"
+"['Smart_Bot']" won the round 1 (stack = {'Super_Bot': 1000, 'Dumb_2': 620, 'Tournament_Titan': 980, 'Apex_Predator': 680, 'Smart_Bot': 1720, 'World_Class_Bot': 1000})
+Started the round 2
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D2', 'D9']
+Board: []
+Position Index: 4
+Stack: 1000 (50.0 BB)
+Stack Zone: STANDARD
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 6
+Position: MP
+Pot Odds: 42.11%
+Equity: 14.80%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 4
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 92s
+Position: MP
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Dumb_2" declared "raise:140"
+"Tournament_Titan" declared "fold:0"
+"Apex_Predator" declared "raise:200"
+"Smart_Bot" declared "raise:260"
+"Dumb_2" declared "raise:320"
+"Apex_Predator" declared "raise:380"
+"Smart_Bot" declared "raise:440"
+"Dumb_2" declared "raise:500"
+"Apex_Predator" declared "raise:560"
+"Smart_Bot" declared "raise:620"
+"Dumb_2" declared "raise:-1"
+"Apex_Predator" declared "call:20"
+"['Smart_Bot']" won the round 2 (stack = {'Super_Bot': 1000, 'Dumb_2': 120, 'Tournament_Titan': 970, 'Apex_Predator': 120, 'Smart_Bot': 2790, 'World_Class_Bot': 1000})
+Started the round 3
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CA', 'DQ']
+Board: []
+Position Index: 3
+Stack: 1000 (50.0 BB)
+Stack Zone: STANDARD
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 6
+Position: UTG
+Pot Odds: 40.00%
+Equity: 30.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 3
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: UTG
+Stack Zone: STANDARD
+Situation: unopened
+==============================
+[RANGE] AQo in UTG OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Dumb_2" declared "call:44"
+"Tournament_Titan" declared "raise:68"
+"Apex_Predator" declared "call:20"
+"Smart_Bot" declared "raise:92"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CA', 'DQ']
+Board: []
+Position Index: 3
+Stack: 956 (47.8 BB)
+Stack Zone: STANDARD
+Pot: 258 (12.9 BB)
+To Call: 92
+Players Alive: 4
+Position: UTG
+Pot Odds: 26.29%
+Equity: 38.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 3
+  Callers Before: 1
+  Players Left: 2
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: UTG
+Stack Zone: STANDARD
+Situation: facing_reraise
+==============================
+[HARD CAP ACTIVATED] Raises >= 3
+Not premium → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Dumb_2" declared "call:92"
+"Tournament_Titan" declared "raise:116"
+"Smart_Bot" declared "raise:140"
+"Dumb_2" declared "call:140"
+"Tournament_Titan" declared "raise:164"
+"Smart_Bot" declared "raise:188"
+"Tournament_Titan" declared "raise:212"
+"Smart_Bot" declared "raise:236"
+"Tournament_Titan" declared "raise:260"
+"Smart_Bot" declared "raise:284"
+"Tournament_Titan" declared "raise:308"
+"Smart_Bot" declared "raise:332"
+"Tournament_Titan" declared "raise:356"
+"Smart_Bot" declared "raise:380"
+"Tournament_Titan" declared "raise:404"
+"Smart_Bot" declared "raise:428"
+"Tournament_Titan" declared "raise:452"
+"Smart_Bot" declared "raise:476"
+"Tournament_Titan" declared "raise:500"
+"Smart_Bot" declared "raise:524"
+"Tournament_Titan" declared "raise:548"
+"Smart_Bot" declared "raise:572"
+"Tournament_Titan" declared "raise:596"
+"Smart_Bot" declared "raise:620"
+"Tournament_Titan" declared "raise:644"
+"Smart_Bot" declared "raise:668"
+"Tournament_Titan" declared "raise:692"
+"Smart_Bot" declared "raise:716"
+"Tournament_Titan" declared "raise:740"
+"Smart_Bot" declared "raise:764"
+"Tournament_Titan" declared "raise:788"
+"Smart_Bot" declared "raise:812"
+"Tournament_Titan" declared "raise:836"
+"Smart_Bot" declared "raise:860"
+"Tournament_Titan" declared "raise:884"
+"Smart_Bot" declared "raise:908"
+"Tournament_Titan" declared "raise:932"
+"Smart_Bot" declared "raise:956"
+"Tournament_Titan" declared "call:956"
+Street "flop" started. (community card = ['S8', 'CJ', 'C8'])
+"Smart_Bot" declared "call:0"
+"Tournament_Titan" declared "call:0"
+Street "turn" started. (community card = ['S8', 'CJ', 'C8', 'D8'])
+"Smart_Bot" declared "call:0"
+"Tournament_Titan" declared "call:0"
+Street "river" started. (community card = ['S8', 'CJ', 'C8', 'D8', 'HJ'])
+"Smart_Bot" declared "call:0"
+"Tournament_Titan" declared "call:0"
+"['Smart_Bot']" won the round 3 (stack = {'Super_Bot': 1000, 'Dumb_2': 0, 'Tournament_Titan': 14, 'Apex_Predator': 110, 'Smart_Bot': 3920, 'World_Class_Bot': 956})
+Started the round 4
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Tournament_Titan" declared "call:20"
+"Apex_Predator" declared "raise:80"
+"Smart_Bot" declared "raise:140"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S4', 'C9']
+Board: []
+Position Index: 2
+Stack: 936 (46.8 BB)
+Stack Zone: STANDARD
+Pot: 56 (2.8 BB)
+To Call: 140
+Players Alive: 3
+Position: BB
+Pot Odds: 71.43%
+Equity: 22.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 1
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 94o
+Position: BB
+Stack Zone: STANDARD
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Apex_Predator" declared "call:140"
+Street "flop" started. (community card = ['S2', 'H6', 'S7'])
+Street "turn" started. (community card = ['S2', 'H6', 'S7', 'HA'])
+Street "river" started. (community card = ['S2', 'H6', 'S7', 'HA', 'CJ'])
+"['Apex_Predator']" won the round 4 (stack = {'Super_Bot': 1000, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 254, 'Smart_Bot': 3810, 'World_Class_Bot': 936})
+Started the round 5
+Street "preflop" started. (community card = [])
+"Apex_Predator" declared "call:20"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D8', 'SK']
+Board: []
+Position Index: 1
+Stack: 926 (46.3 BB)
+Stack Zone: STANDARD
+Pot: 130 (6.5 BB)
+To Call: 80
+Players Alive: 4
+Position: SB
+Pot Odds: 38.10%
+Equity: 29.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 2
+  Closing Action: False
+  Limpers Before: 1
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K8o
+Position: SB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "call:20"
+"['Smart_Bot']" won the round 5 (stack = {'Super_Bot': 980, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 234, 'Smart_Bot': 3860, 'World_Class_Bot': 926})
+Started the round 6
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D7', 'S5']
+Board: []
+Position Index: 0
+Stack: 926 (46.3 BB)
+Stack Zone: STANDARD
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 4
+Position: BTN
+Pot Odds: 42.11%
+Equity: 21.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 2
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 75o
+Position: BTN
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "raise:140"
+"Smart_Bot" declared "raise:200"
+"Apex_Predator" declared "call:20"
+"['Smart_Bot']" won the round 6 (stack = {'Super_Bot': 970, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 94, 'Smart_Bot': 4010, 'World_Class_Bot': 926})
+Started the round 7
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HQ', 'C2']
+Board: []
+Position Index: 3
+Stack: 926 (46.3 BB)
+Stack Zone: STANDARD
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 4
+Position: UTG
+Pot Odds: 40.00%
+Equity: 13.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q2o
+Position: UTG
+Stack Zone: STANDARD
+Situation: unopened
+==============================
+[RANGE] Q2o in UTG OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "raise:80"
+"Smart_Bot" declared "raise:140"
+"Apex_Predator" declared "call:140"
+Street "flop" started. (community card = ['H9', 'D2', 'SQ'])
+Street "turn" started. (community card = ['H9', 'D2', 'SQ', 'H8'])
+Street "river" started. (community card = ['H9', 'D2', 'SQ', 'H8', 'D3'])
+"['Apex_Predator']" won the round 7 (stack = {'Super_Bot': 970, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 188, 'Smart_Bot': 3916, 'World_Class_Bot': 926})
+Started the round 8
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "raise:80"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SQ', 'H2']
+Board: []
+Position Index: 2
+Stack: 906 (45.3 BB)
+Stack Zone: STANDARD
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 42.11%
+Equity: 50.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: ppviqejarvljoazkuzxagd
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q2o
+Position: BB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Apex_Predator']" won the round 8 (stack = {'Super_Bot': 970, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 218, 'Smart_Bot': 3906, 'World_Class_Bot': 906})
+Started the round 9
+Street "preflop" started. (community card = [])
+"Apex_Predator" declared "call:20"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SQ', 'C7']
+Board: []
+Position Index: 1
+Stack: 896 (44.8 BB)
+Stack Zone: STANDARD
+Pot: 130 (6.5 BB)
+To Call: 80
+Players Alive: 4
+Position: SB
+Pot Odds: 38.10%
+Equity: 24.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 2
+  Closing Action: False
+  Limpers Before: 1
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q7o
+Position: SB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "call:20"
+"['Smart_Bot']" won the round 9 (stack = {'Super_Bot': 950, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 198, 'Smart_Bot': 3956, 'World_Class_Bot': 896})
+Started the round 10
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DK', 'C9']
+Board: []
+Position Index: 0
+Stack: 896 (44.8 BB)
+Stack Zone: STANDARD
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 4
+Position: BTN
+Pot Odds: 42.11%
+Equity: 33.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 2
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K9o
+Position: BTN
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"Apex_Predator" declared "raise:140"
+"Smart_Bot" declared "raise:200"
+"Apex_Predator" declared "call:200"
+Street "flop" started. (community card = ['H6', 'D8', 'H5'])
+Street "turn" started. (community card = ['H6', 'D8', 'H5', 'H7'])
+Street "river" started. (community card = ['H6', 'D8', 'H5', 'H7', 'SA'])
+"['Smart_Bot']" won the round 10 (stack = {'Super_Bot': 940, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4164, 'World_Class_Bot': 896})
+Started the round 11
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SK', 'CJ']
+Board: []
+Position Index: 2
+Stack: 876 (43.8 BB)
+Stack Zone: STANDARD
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 63.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 11 (stack = {'Super_Bot': 940, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4184, 'World_Class_Bot': 876})
+Started the round 12
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C6', 'S2']
+Board: []
+Position Index: 1
+Stack: 866 (43.3 BB)
+Stack Zone: STANDARD
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 21.00%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 62o
+Position: SB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 12 (stack = {'Super_Bot': 920, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4214, 'World_Class_Bot': 866})
+Started the round 13
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H4', 'CK']
+Board: []
+Position Index: 0
+Stack: 866 (43.3 BB)
+Stack Zone: STANDARD
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 33.80%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K4o
+Position: BTN
+Stack Zone: STANDARD
+Situation: unopened
+==============================
+[RANGE] K4o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 13 (stack = {'Super_Bot': 910, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4224, 'World_Class_Bot': 866})
+Started the round 14
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SJ', 'SQ']
+Board: []
+Position Index: 2
+Stack: 846 (42.3 BB)
+Stack Zone: STANDARD
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 60.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: QJs
+Position: BB
+Stack Zone: STANDARD
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: call
+[BB DEFENSE] Calling
+CALL 80
+[BOT ACTION] call 80
+"World_Class_Bot" declared "call:80"
+Street "flop" started. (community card = ['S2', 'H3', 'D4'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: flop
+Hero Cards: ['SJ', 'SQ']
+Board: ['S2', 'H3', 'D4']
+Position Index: 2
+Stack: 786 (39.3 BB)
+Stack Zone: MEDIUM
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 42.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+Street "turn" started. (community card = ['S2', 'H3', 'D4', 'D3'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: turn
+Hero Cards: ['SJ', 'SQ']
+Board: ['S2', 'H3', 'D4', 'D3']
+Position Index: 2
+Stack: 786 (39.3 BB)
+Stack Zone: MEDIUM
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 35.00%
+Made Hand: pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+Street "river" started. (community card = ['S2', 'H3', 'D4', 'D3', 'H7'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: river
+Hero Cards: ['SJ', 'SQ']
+Board: ['S2', 'H3', 'D4', 'D3', 'H7']
+Position Index: 2
+Stack: 786 (39.3 BB)
+Stack Zone: MEDIUM
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 29.80%
+Made Hand: pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+"['Smart_Bot']" won the round 14 (stack = {'Super_Bot': 910, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4304, 'World_Class_Bot': 786})
+Started the round 15
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S4', 'H9']
+Board: []
+Position Index: 1
+Stack: 776 (38.8 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 23.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 94o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 15 (stack = {'Super_Bot': 890, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4334, 'World_Class_Bot': 776})
+Started the round 16
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C6', 'H9']
+Board: []
+Position Index: 0
+Stack: 776 (38.8 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 27.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 96o
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] 96o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 16 (stack = {'Super_Bot': 880, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4344, 'World_Class_Bot': 776})
+Started the round 17
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "fold:0"
+"['World_Class_Bot']" won the round 17 (stack = {'Super_Bot': 880, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4334, 'World_Class_Bot': 786})
+Started the round 18
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S3', 'H5']
+Board: []
+Position Index: 1
+Stack: 776 (38.8 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 22.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 53o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 18 (stack = {'Super_Bot': 860, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4364, 'World_Class_Bot': 776})
+Started the round 19
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H4', 'H3']
+Board: []
+Position Index: 0
+Stack: 776 (38.8 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 23.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 43s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] 43s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 19 (stack = {'Super_Bot': 850, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4374, 'World_Class_Bot': 776})
+Started the round 20
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HT', 'H7']
+Board: []
+Position Index: 2
+Stack: 756 (37.8 BB)
+Stack Zone: MEDIUM
+Pot: 40 (2.0 BB)
+To Call: 20
+Players Alive: 2
+Position: BB
+Pot Odds: 33.33%
+Equity: 52.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 1
+  Last Raiser: None
+------------------------------
+Preflop Situation: limped_pot
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T7s
+Position: BB
+Stack Zone: MEDIUM
+Situation: limped_pot
+==============================
+[LIMPED POT SPOT]
+BB limped pot → check
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 20 (stack = {'Super_Bot': 850, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4394, 'World_Class_Bot': 756})
+Started the round 21
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H6', 'D8']
+Board: []
+Position Index: 1
+Stack: 746 (37.3 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 26.80%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 86o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 21 (stack = {'Super_Bot': 830, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4424, 'World_Class_Bot': 746})
+Started the round 22
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CK', 'HT']
+Board: []
+Position Index: 0
+Stack: 746 (37.3 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 41.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KTo
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] KTo in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+"['World_Class_Bot']" won the round 22 (stack = {'Super_Bot': 820, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4404, 'World_Class_Bot': 776})
+Started the round 23
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C4', 'C2']
+Board: []
+Position Index: 2
+Stack: 756 (37.8 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 30.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 42s
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 23 (stack = {'Super_Bot': 820, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4424, 'World_Class_Bot': 756})
+Started the round 24
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D8', 'H7']
+Board: []
+Position Index: 1
+Stack: 746 (37.3 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 33.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 87o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 24 (stack = {'Super_Bot': 800, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4454, 'World_Class_Bot': 746})
+Started the round 25
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DT', 'S8']
+Board: []
+Position Index: 0
+Stack: 746 (37.3 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 37.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T8o
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] T8o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 25 (stack = {'Super_Bot': 790, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4464, 'World_Class_Bot': 746})
+Started the round 26
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HK', 'S8']
+Board: []
+Position Index: 2
+Stack: 726 (36.3 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 54.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K8o
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 26 (stack = {'Super_Bot': 790, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4484, 'World_Class_Bot': 726})
+Started the round 27
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DA', 'D3']
+Board: []
+Position Index: 1
+Stack: 716 (35.8 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 34.00%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A3s
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: bluff_3bet
+[3-BET]
+Open size: 80
+Multiplier: 3.5
+Target: 280
+Final size: 280
+[BOT ACTION] raise 280
+"World_Class_Bot" declared "raise:280"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:480"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DA', 'D3']
+Board: []
+Position Index: 1
+Stack: 446 (22.3 BB)
+Stack Zone: MEDIUM
+Pot: 780 (39.0 BB)
+To Call: 480
+Players Alive: 2
+Position: SB
+Pot Odds: 38.10%
+Equity: 58.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 3
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A3s
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_reraise
+==============================
+[HARD CAP ACTIVATED] Raises >= 3
+Not premium → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 27 (stack = {'Super_Bot': 770, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4784, 'World_Class_Bot': 446})
+Started the round 28
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H7', 'CQ']
+Board: []
+Position Index: 0
+Stack: 446 (22.3 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 31.80%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q7o
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] Q7o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 28 (stack = {'Super_Bot': 760, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4794, 'World_Class_Bot': 446})
+Started the round 29
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "fold:0"
+"['World_Class_Bot']" won the round 29 (stack = {'Super_Bot': 760, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4784, 'World_Class_Bot': 456})
+Started the round 30
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D4', 'CA']
+Board: []
+Position Index: 1
+Stack: 446 (22.3 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 35.80%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A4o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 30 (stack = {'Super_Bot': 740, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4814, 'World_Class_Bot': 446})
+Started the round 31
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S7', 'ST']
+Board: []
+Position Index: 0
+Stack: 446 (22.3 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 37.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T7s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] T7s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 31 (stack = {'Super_Bot': 730, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4824, 'World_Class_Bot': 446})
+Started the round 32
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C6', 'HT']
+Board: []
+Position Index: 2
+Stack: 426 (21.3 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 49.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T6o
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 32 (stack = {'Super_Bot': 730, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4844, 'World_Class_Bot': 426})
+Started the round 33
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D6', 'D3']
+Board: []
+Position Index: 1
+Stack: 416 (20.8 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 22.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 63s
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 33 (stack = {'Super_Bot': 710, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4874, 'World_Class_Bot': 416})
+Started the round 34
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H3', 'H7']
+Board: []
+Position Index: 0
+Stack: 416 (20.8 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 24.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 73s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] 73s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 34 (stack = {'Super_Bot': 700, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4884, 'World_Class_Bot': 416})
+Started the round 35
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DK', 'H2']
+Board: []
+Position Index: 2
+Stack: 396 (19.8 BB)
+Stack Zone: PRESSURE
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 49.80%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K2o
+Position: BB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 35 (stack = {'Super_Bot': 700, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4904, 'World_Class_Bot': 396})
+Started the round 36
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D3', 'D6']
+Board: []
+Position Index: 1
+Stack: 386 (19.3 BB)
+Stack Zone: PRESSURE
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 24.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 63s
+Position: SB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 36 (stack = {'Super_Bot': 680, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4934, 'World_Class_Bot': 386})
+Started the round 37
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DA', 'HQ']
+Board: []
+Position Index: 0
+Stack: 386 (19.3 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 48.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] AQo in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DA', 'HQ']
+Board: []
+Position Index: 0
+Stack: 342 (17.1 BB)
+Stack Zone: PRESSURE
+Pot: 134 (6.7 BB)
+To Call: 80
+Players Alive: 2
+Position: BTN
+Pot Odds: 37.38%
+Equity: 66.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 37 (stack = {'Super_Bot': 670, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4988, 'World_Class_Bot': 342})
+Started the round 38
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CJ', 'D4']
+Board: []
+Position Index: 2
+Stack: 322 (16.1 BB)
+Stack Zone: PRESSURE
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 44.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: J4o
+Position: BB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 38 (stack = {'Super_Bot': 670, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5008, 'World_Class_Bot': 322})
+Started the round 39
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "fold:0"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CQ', 'H3']
+Board: []
+Position Index: 1
+Stack: 312 (15.6 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 2
+Position: SB
+Pot Odds: 40.00%
+Equity: 48.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q3o
+Position: SB
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] Q3o in SB OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Super_Bot']" won the round 39 (stack = {'Super_Bot': 680, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5008, 'World_Class_Bot': 312})
+Started the round 40
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CQ', 'C7']
+Board: []
+Position Index: 0
+Stack: 312 (15.6 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 39.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q7s
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] Q7s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 40 (stack = {'Super_Bot': 670, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5018, 'World_Class_Bot': 312})
+Started the round 41
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H7', 'CA']
+Board: []
+Position Index: 2
+Stack: 292 (14.6 BB)
+Stack Zone: PRESSURE
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 59.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A7o
+Position: BB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 41 (stack = {'Super_Bot': 670, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5038, 'World_Class_Bot': 292})
+Started the round 42
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CA', 'S4']
+Board: []
+Position Index: 1
+Stack: 282 (14.1 BB)
+Stack Zone: PRESSURE
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 39.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A4o
+Position: SB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 42 (stack = {'Super_Bot': 650, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5068, 'World_Class_Bot': 282})
+Started the round 43
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HQ', 'DQ']
+Board: []
+Position Index: 0
+Stack: 282 (14.1 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 59.20%
+Made Hand: pair
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: QQ
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] QQ in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HQ', 'DQ']
+Board: []
+Position Index: 0
+Stack: 238 (11.9 BB)
+Stack Zone: SHORT
+Pot: 134 (6.7 BB)
+To Call: 80
+Players Alive: 2
+Position: BTN
+Pot Odds: 37.38%
+Equity: 77.80%
+Made Hand: pair
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: QQ
+Position: BTN
+Stack Zone: SHORT
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Short stack strong hand → JAM
+[BOT ACTION] raise 282
+"World_Class_Bot" declared "raise:282"
+"Smart_Bot" declared "raise:484"
+Street "flop" started. (community card = ['DA', 'S3', 'H9'])
+Street "turn" started. (community card = ['DA', 'S3', 'H9', 'C3'])
+Street "river" started. (community card = ['DA', 'S3', 'H9', 'C3', 'D8'])
+"['World_Class_Bot']" won the round 43 (stack = {'Super_Bot': 640, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4786, 'World_Class_Bot': 574})
+Started the round 44
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CK', 'DJ']
+Board: []
+Position Index: 2
+Stack: 554 (27.7 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 60.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 44 (stack = {'Super_Bot': 640, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4806, 'World_Class_Bot': 554})
+Started the round 45
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "fold:0"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CQ', 'H4']
+Board: []
+Position Index: 1
+Stack: 544 (27.2 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 2
+Position: SB
+Pot Odds: 40.00%
+Equity: 51.80%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q4o
+Position: SB
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] Q4o in SB OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Super_Bot']" won the round 45 (stack = {'Super_Bot': 650, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4806, 'World_Class_Bot': 544})
+Started the round 46
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S3', 'S4']
+Board: []
+Position Index: 0
+Stack: 544 (27.2 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 23.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 43s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] 43s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 46 (stack = {'Super_Bot': 640, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4816, 'World_Class_Bot': 544})
+Started the round 47
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C4', 'D9']
+Board: []
+Position Index: 2
+Stack: 524 (26.2 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 42.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 94o
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 47 (stack = {'Super_Bot': 640, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4836, 'World_Class_Bot': 524})
+Started the round 48
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CQ', 'D4']
+Board: []
+Position Index: 1
+Stack: 514 (25.7 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 31.60%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q4o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 48 (stack = {'Super_Bot': 620, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4866, 'World_Class_Bot': 514})
+Started the round 49
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C9', 'CJ']
+Board: []
+Position Index: 0
+Stack: 514 (25.7 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 41.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: J9s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] J9s in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "fold:0"
+"['World_Class_Bot']" won the round 49 (stack = {'Super_Bot': 610, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4846, 'World_Class_Bot': 544})
+Started the round 50
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HQ', 'HT']
+Board: []
+Position Index: 2
+Stack: 524 (26.2 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 62.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: QTs
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: bluff_3bet
+[BB DEFENSE] Calling
+CALL 80
+[BOT ACTION] call 80
+"World_Class_Bot" declared "call:80"
+Street "flop" started. (community card = ['CJ', 'CK', 'SJ'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: flop
+Hero Cards: ['HQ', 'HT']
+Board: ['CJ', 'CK', 'SJ']
+Position Index: 2
+Stack: 464 (23.2 BB)
+Stack Zone: MEDIUM
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 67.00%
+Made Hand: pair
+Draws: ['straight_draw']
+In Position: True
+------------------------------
+[BOT ACTION] raise 52
+"World_Class_Bot" declared "raise:52"
+"Smart_Bot" declared "call:52"
+Street "turn" started. (community card = ['CJ', 'CK', 'SJ', 'D8'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: turn
+Hero Cards: ['HQ', 'HT']
+Board: ['CJ', 'CK', 'SJ', 'D8']
+Position Index: 2
+Stack: 412 (20.6 BB)
+Stack Zone: MEDIUM
+Pot: 264 (13.2 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 52.80%
+Made Hand: pair
+Draws: ['straight_draw']
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+Street "river" started. (community card = ['CJ', 'CK', 'SJ', 'D8', 'C5'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: river
+Hero Cards: ['HQ', 'HT']
+Board: ['CJ', 'CK', 'SJ', 'D8', 'C5']
+Position Index: 2
+Stack: 412 (20.6 BB)
+Stack Zone: MEDIUM
+Pot: 264 (13.2 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 37.00%
+Made Hand: pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+"['Smart_Bot']" won the round 50 (stack = {'Super_Bot': 610, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4978, 'World_Class_Bot': 412})
+Started the round 51
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['C4', 'C5']
+Board: []
+Position Index: 1
+Stack: 402 (20.1 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 27.00%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 54s
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 51 (stack = {'Super_Bot': 590, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5008, 'World_Class_Bot': 402})
+Started the round 52
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['S8', 'SJ']
+Board: []
+Position Index: 0
+Stack: 402 (20.1 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 39.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: J8s
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] J8s in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 52 (stack = {'Super_Bot': 580, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5018, 'World_Class_Bot': 402})
+Started the round 53
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D3', 'C3']
+Board: []
+Position Index: 2
+Stack: 382 (19.1 BB)
+Stack Zone: PRESSURE
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 52.80%
+Made Hand: pair
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 33
+Position: BB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: call
+[BB DEFENSE] Calling
+CALL 80
+[BOT ACTION] call 80
+"World_Class_Bot" declared "call:80"
+Street "flop" started. (community card = ['D6', 'DA', 'HT'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: flop
+Hero Cards: ['D3', 'C3']
+Board: ['D6', 'DA', 'HT']
+Position Index: 2
+Stack: 322 (16.1 BB)
+Stack Zone: PRESSURE
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 48.60%
+Made Hand: pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+Street "turn" started. (community card = ['D6', 'DA', 'HT', 'SA'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: turn
+Hero Cards: ['D3', 'C3']
+Board: ['D6', 'DA', 'HT', 'SA']
+Position Index: 2
+Stack: 322 (16.1 BB)
+Stack Zone: PRESSURE
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 46.00%
+Made Hand: two_pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] call 0
+"World_Class_Bot" declared "call:0"
+Street "river" started. (community card = ['D6', 'DA', 'HT', 'SA', 'H2'])
+"Smart_Bot" declared "call:0"
+
+[STATE PARSED]
+Street: river
+Hero Cards: ['D3', 'C3']
+Board: ['D6', 'DA', 'HT', 'SA', 'H2']
+Position Index: 2
+Stack: 322 (16.1 BB)
+Stack Zone: PRESSURE
+Pot: 160 (8.0 BB)
+To Call: 0
+Players Alive: 2
+Position: BB
+Pot Odds: 0.00%
+Equity: 66.20%
+Made Hand: two_pair
+Draws: []
+In Position: True
+------------------------------
+[BOT ACTION] raise 128
+"World_Class_Bot" declared "raise:128"
+"Smart_Bot" declared "fold:0"
+"['World_Class_Bot']" won the round 53 (stack = {'Super_Bot': 580, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 4938, 'World_Class_Bot': 482})
+Started the round 54
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SQ', 'HA']
+Board: []
+Position Index: 1
+Stack: 472 (23.6 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 46.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: value_3bet
+[3-BET]
+Open size: 80
+Multiplier: 3.5
+Target: 280
+Final size: 280
+[BOT ACTION] raise 280
+"World_Class_Bot" declared "raise:280"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:480"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SQ', 'HA']
+Board: []
+Position Index: 1
+Stack: 202 (10.1 BB)
+Stack Zone: SHORT
+Pot: 780 (39.0 BB)
+To Call: 480
+Players Alive: 2
+Position: SB
+Pot Odds: 38.10%
+Equity: 65.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 3
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: AQo
+Position: SB
+Stack Zone: SHORT
+Situation: facing_reraise
+==============================
+[HARD CAP ACTIVATED] Raises >= 3
+Not premium → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 54 (stack = {'Super_Bot': 560, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5238, 'World_Class_Bot': 202})
+Started the round 55
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D4', 'S7']
+Board: []
+Position Index: 0
+Stack: 202 (10.1 BB)
+Stack Zone: SHORT
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 21.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 74o
+Position: BTN
+Stack Zone: SHORT
+Situation: unopened
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: 74o
+Position: BTN
+Stack BB: 10.1
+Not in push range → fold
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 55 (stack = {'Super_Bot': 550, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5248, 'World_Class_Bot': 202})
+Started the round 56
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SA', 'S3']
+Board: []
+Position Index: 2
+Stack: 182 (9.1 BB)
+Stack Zone: SHORT
+Pot: 40 (2.0 BB)
+To Call: 20
+Players Alive: 2
+Position: BB
+Pot Odds: 33.33%
+Equity: 59.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 1
+  Last Raiser: None
+------------------------------
+Preflop Situation: limped_pot
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A3s
+Position: BB
+Stack Zone: SHORT
+Situation: limped_pot
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: A3s
+Position: BB
+Stack BB: 9.1
+JAM for 202
+[BOT ACTION] raise 202
+"World_Class_Bot" declared "raise:202"
+"Smart_Bot" declared "call:20"
+"['World_Class_Bot']" won the round 56 (stack = {'Super_Bot': 550, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5228, 'World_Class_Bot': 222})
+Started the round 57
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SK', 'S9']
+Board: []
+Position Index: 1
+Stack: 212 (10.6 BB)
+Stack Zone: SHORT
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 46.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K9s
+Position: SB
+Stack Zone: SHORT
+Situation: facing_open
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: K9s
+Position: SB
+Stack BB: 10.6
+JAM for 222
+[BOT ACTION] raise 222
+"World_Class_Bot" declared "raise:222"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:364"
+Street "flop" started. (community card = ['ST', 'H3', 'S6'])
+Street "turn" started. (community card = ['ST', 'H3', 'S6', 'D3'])
+Street "river" started. (community card = ['ST', 'H3', 'S6', 'D3', 'S2'])
+"['World_Class_Bot']" won the round 57 (stack = {'Super_Bot': 530, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5006, 'World_Class_Bot': 464})
+Started the round 58
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D8', 'C9']
+Board: []
+Position Index: 0
+Stack: 464 (23.2 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 33.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 98o
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] 98o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 58 (stack = {'Super_Bot': 520, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5016, 'World_Class_Bot': 464})
+Started the round 59
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D5', 'HT']
+Board: []
+Position Index: 2
+Stack: 444 (22.2 BB)
+Stack Zone: MEDIUM
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 48.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T5o
+Position: BB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 59 (stack = {'Super_Bot': 520, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5036, 'World_Class_Bot': 444})
+Started the round 60
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['SJ', 'C8']
+Board: []
+Position Index: 1
+Stack: 434 (21.7 BB)
+Stack Zone: MEDIUM
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 36.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: J8o
+Position: SB
+Stack Zone: MEDIUM
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 60 (stack = {'Super_Bot': 500, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5066, 'World_Class_Bot': 434})
+Started the round 61
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CK', 'DQ']
+Board: []
+Position Index: 0
+Stack: 434 (21.7 BB)
+Stack Zone: MEDIUM
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 49.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KQo
+Position: BTN
+Stack Zone: MEDIUM
+Situation: unopened
+==============================
+[RANGE] KQo in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CK', 'DQ']
+Board: []
+Position Index: 0
+Stack: 390 (19.5 BB)
+Stack Zone: PRESSURE
+Pot: 134 (6.7 BB)
+To Call: 80
+Players Alive: 2
+Position: BTN
+Pot Odds: 37.38%
+Equity: 63.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KQo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 61 (stack = {'Super_Bot': 490, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5120, 'World_Class_Bot': 390})
+Started the round 62
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D6', 'H7']
+Board: []
+Position Index: 2
+Stack: 370 (18.5 BB)
+Stack Zone: PRESSURE
+Pot: 100 (5.0 BB)
+To Call: 80
+Players Alive: 2
+Position: BB
+Pot Odds: 44.44%
+Equity: 42.00%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 76o
+Position: BB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 62 (stack = {'Super_Bot': 490, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5140, 'World_Class_Bot': 370})
+Started the round 63
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D8', 'H5']
+Board: []
+Position Index: 1
+Stack: 360 (18.0 BB)
+Stack Zone: PRESSURE
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 24.40%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 85o
+Position: SB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 63 (stack = {'Super_Bot': 470, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5170, 'World_Class_Bot': 360})
+Started the round 64
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DJ', 'SK']
+Board: []
+Position Index: 0
+Stack: 360 (18.0 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 44.40%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] KJo in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['DJ', 'SK']
+Board: []
+Position Index: 0
+Stack: 316 (15.8 BB)
+Stack Zone: PRESSURE
+Pot: 134 (6.7 BB)
+To Call: 80
+Players Alive: 2
+Position: BTN
+Pot Odds: 37.38%
+Equity: 61.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 64 (stack = {'Super_Bot': 460, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5224, 'World_Class_Bot': 316})
+Started the round 65
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HQ', 'CK']
+Board: []
+Position Index: 2
+Stack: 296 (14.8 BB)
+Stack Zone: PRESSURE
+Pot: 40 (2.0 BB)
+To Call: 20
+Players Alive: 2
+Position: BB
+Pot Odds: 33.33%
+Equity: 61.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 1
+  Last Raiser: None
+------------------------------
+Preflop Situation: limped_pot
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KQo
+Position: BB
+Stack Zone: PRESSURE
+Situation: limped_pot
+==============================
+[LIMPED POT SPOT]
+BB limped pot → check
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 65 (stack = {'Super_Bot': 460, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5244, 'World_Class_Bot': 296})
+Started the round 66
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "fold:0"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D7', 'DK']
+Board: []
+Position Index: 1
+Stack: 286 (14.3 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 2
+Position: SB
+Pot Odds: 40.00%
+Equity: 58.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: K7s
+Position: SB
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] K7s in SB OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Super_Bot']" won the round 66 (stack = {'Super_Bot': 470, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5244, 'World_Class_Bot': 286})
+Started the round 67
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HK', 'DJ']
+Board: []
+Position Index: 0
+Stack: 286 (14.3 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 41.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] KJo in BTN OPEN range? True
+[UNOPENED SPOT]
+In opening range? True
+[OPEN RAISE]
+Target: 44
+Final size: 44
+BB Multiplier: 2.20x
+[BOT ACTION] raise 44
+"World_Class_Bot" declared "raise:44"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HK', 'DJ']
+Board: []
+Position Index: 0
+Stack: 242 (12.1 BB)
+Stack Zone: PRESSURE
+Pot: 134 (6.7 BB)
+To Call: 80
+Players Alive: 2
+Position: BTN
+Pot Odds: 37.38%
+Equity: 58.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 2
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_reraise
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: KJo
+Position: BTN
+Stack Zone: PRESSURE
+Situation: facing_reraise
+==============================
+[FACING RE-RERAISE SPOT]
+Not strong enough → FOLD
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 67 (stack = {'Super_Bot': 460, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5298, 'World_Class_Bot': 242})
+Started the round 68
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['HA', 'C9']
+Board: []
+Position Index: 2
+Stack: 222 (11.1 BB)
+Stack Zone: SHORT
+Pot: 40 (2.0 BB)
+To Call: 20
+Players Alive: 2
+Position: BB
+Pot Odds: 33.33%
+Equity: 62.20%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 1
+  Last Raiser: None
+------------------------------
+Preflop Situation: limped_pot
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: A9o
+Position: BB
+Stack Zone: SHORT
+Situation: limped_pot
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: A9o
+Position: BB
+Stack BB: 11.1
+JAM for 242
+[BOT ACTION] raise 242
+"World_Class_Bot" declared "raise:242"
+"Smart_Bot" declared "call:20"
+"['World_Class_Bot']" won the round 68 (stack = {'Super_Bot': 460, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5278, 'World_Class_Bot': 262})
+Started the round 69
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['CQ', 'D4']
+Board: []
+Position Index: 1
+Stack: 252 (12.6 BB)
+Stack Zone: PRESSURE
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 30.20%
+Made Hand: high_card
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: Q4o
+Position: SB
+Stack Zone: PRESSURE
+Situation: facing_open
+==============================
+[FACING OPEN SPOT]
+Bucket: None
+Not in facing range → folding
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 69 (stack = {'Super_Bot': 440, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5308, 'World_Class_Bot': 252})
+Started the round 70
+Street "preflop" started. (community card = [])
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D9', 'ST']
+Board: []
+Position Index: 0
+Stack: 252 (12.6 BB)
+Stack Zone: PRESSURE
+Pot: 30 (1.5 BB)
+To Call: 20
+Players Alive: 3
+Position: BTN
+Pot Odds: 40.00%
+Equity: 33.80%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 0
+  Last Raiser: None
+------------------------------
+Preflop Situation: unopened
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: T9o
+Position: BTN
+Stack Zone: PRESSURE
+Situation: unopened
+==============================
+[RANGE] T9o in BTN OPEN range? False
+[UNOPENED SPOT]
+In opening range? False
+Hand not in range → folding/checking
+FOLD
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 70 (stack = {'Super_Bot': 430, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5318, 'World_Class_Bot': 252})
+Started the round 71
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "call:20"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['D3', 'S4']
+Board: []
+Position Index: 2
+Stack: 232 (11.6 BB)
+Stack Zone: SHORT
+Pot: 40 (2.0 BB)
+To Call: 20
+Players Alive: 2
+Position: BB
+Pot Odds: 33.33%
+Equity: 32.60%
+Made Hand: high_card
+Draws: []
+In Position: True
+Preflop Context:
+  Raises Before: 0
+  Callers Before: 0
+  Players Left: 0
+  Closing Action: True
+  Limpers Before: 1
+  Last Raiser: None
+------------------------------
+Preflop Situation: limped_pot
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 43o
+Position: BB
+Stack Zone: SHORT
+Situation: limped_pot
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: 43o
+Position: BB
+Stack BB: 11.6
+Not in push range → fold
+[BOT ACTION] fold 0
+"World_Class_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 71 (stack = {'Super_Bot': 430, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5338, 'World_Class_Bot': 232})
+Started the round 72
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+
+[STATE PARSED]
+Street: preflop
+Hero Cards: ['H5', 'C5']
+Board: []
+Position Index: 1
+Stack: 222 (11.1 BB)
+Stack Zone: SHORT
+Pot: 110 (5.5 BB)
+To Call: 80
+Players Alive: 3
+Position: SB
+Pot Odds: 42.11%
+Equity: 39.40%
+Made Hand: pair
+Draws: []
+In Position: False
+Preflop Context:
+  Raises Before: 1
+  Callers Before: 0
+  Players Left: 1
+  Closing Action: False
+  Limpers Before: 0
+  Last Raiser: nqjmhnlcgaueacqyuecprw
+------------------------------
+Preflop Situation: facing_open
+
+==============================
+[PRE-FLOP DECISION ENGINE]
+Hand Code: 55
+Position: SB
+Stack Zone: SHORT
+Situation: facing_open
+==============================
+
+[PUSH/FOLD ENGINE]
+Hand: 55
+Position: SB
+Stack BB: 11.1
+JAM for 232
+[BOT ACTION] raise 232
+"World_Class_Bot" declared "raise:232"
+"Super_Bot" declared "fold:0"
+"Smart_Bot" declared "raise:384"
+Street "flop" started. (community card = ['H8', 'C2', 'H9'])
+Street "turn" started. (community card = ['H8', 'C2', 'H9', 'SA'])
+Street "river" started. (community card = ['H8', 'C2', 'H9', 'SA', 'S2'])
+"['Smart_Bot']" won the round 72 (stack = {'Super_Bot': 410, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5590, 'World_Class_Bot': 0})
+Started the round 73
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 73 (stack = {'Super_Bot': 390, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5610, 'World_Class_Bot': 0})
+Started the round 74
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 74 (stack = {'Super_Bot': 380, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5620, 'World_Class_Bot': 0})
+Started the round 75
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 75 (stack = {'Super_Bot': 360, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5640, 'World_Class_Bot': 0})
+Started the round 76
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 76 (stack = {'Super_Bot': 350, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5650, 'World_Class_Bot': 0})
+Started the round 77
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 77 (stack = {'Super_Bot': 330, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5670, 'World_Class_Bot': 0})
+Started the round 78
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 78 (stack = {'Super_Bot': 320, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5680, 'World_Class_Bot': 0})
+Started the round 79
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 79 (stack = {'Super_Bot': 300, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5700, 'World_Class_Bot': 0})
+Started the round 80
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 80 (stack = {'Super_Bot': 290, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5710, 'World_Class_Bot': 0})
+Started the round 81
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 81 (stack = {'Super_Bot': 270, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5730, 'World_Class_Bot': 0})
+Started the round 82
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 82 (stack = {'Super_Bot': 260, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5740, 'World_Class_Bot': 0})
+Started the round 83
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 83 (stack = {'Super_Bot': 240, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5760, 'World_Class_Bot': 0})
+Started the round 84
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 84 (stack = {'Super_Bot': 230, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5770, 'World_Class_Bot': 0})
+Started the round 85
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "call:20"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 85 (stack = {'Super_Bot': 210, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5790, 'World_Class_Bot': 0})
+Started the round 86
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 86 (stack = {'Super_Bot': 200, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5800, 'World_Class_Bot': 0})
+Started the round 87
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "call:20"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 87 (stack = {'Super_Bot': 180, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5820, 'World_Class_Bot': 0})
+Started the round 88
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 88 (stack = {'Super_Bot': 170, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5830, 'World_Class_Bot': 0})
+Started the round 89
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "call:20"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 89 (stack = {'Super_Bot': 150, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5850, 'World_Class_Bot': 0})
+Started the round 90
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 90 (stack = {'Super_Bot': 140, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5860, 'World_Class_Bot': 0})
+Started the round 91
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 91 (stack = {'Super_Bot': 120, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5880, 'World_Class_Bot': 0})
+Started the round 92
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 92 (stack = {'Super_Bot': 110, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5890, 'World_Class_Bot': 0})
+Started the round 93
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 93 (stack = {'Super_Bot': 90, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5910, 'World_Class_Bot': 0})
+Started the round 94
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 94 (stack = {'Super_Bot': 80, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5920, 'World_Class_Bot': 0})
+Started the round 95
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 95 (stack = {'Super_Bot': 60, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5940, 'World_Class_Bot': 0})
+Started the round 96
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 96 (stack = {'Super_Bot': 50, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5950, 'World_Class_Bot': 0})
+Started the round 97
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 97 (stack = {'Super_Bot': 30, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5970, 'World_Class_Bot': 0})
+Started the round 98
+Street "preflop" started. (community card = [])
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 98 (stack = {'Super_Bot': 20, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 5980, 'World_Class_Bot': 0})
+Started the round 99
+Street "preflop" started. (community card = [])
+"Smart_Bot" declared "raise:80"
+"Super_Bot" declared "fold:0"
+"['Smart_Bot']" won the round 99 (stack = {'Super_Bot': 0, 'Dumb_2': 0, 'Tournament_Titan': 0, 'Apex_Predator': 0, 'Smart_Bot': 6000, 'World_Class_Bot': 0})
+Game 18 Profit: -1000
